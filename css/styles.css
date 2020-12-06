@@ -79,7 +79,7 @@ img {
 }
 
 header {
-  background: url("images/home/showcase.jpg") no-repeat center center;
+  background: url("./images/home/showcase.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
   position: relative;
