@@ -1,0 +1,52 @@
+$primary-color: #17d055;
+$secondary-color:#445e8d;
+$grey-color: #999;
+
+
+// buttons
+.btn {
+    padding: 10px 25px;
+    border-radius: 10px;
+
+    :hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-primary {
+    color:#fff;
+    background: $primary-color;
+}
+
+.btn-transparent {
+    background: transparent;
+    color: #fff;
+    border: 1px #fff solid;
+}
+
+// backgrounds
+
+.bg-primary {
+    background: $primary-color;
+}
+
+.bg-secondary {
+    background: $secondary-color;
+}
+
+// flex-container
+.flex-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+        > div {
+        text-align: center;
+        padding:10px;
+    }
+}
+
+// paddings
+.set-paddings {
+    padding: 30px;
+}
